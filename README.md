@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[View Live Demo Here](https://rn486.github.io/Leaderboard-Project/)
 
 
 ## Getting Started
