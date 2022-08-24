@@ -1,11 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard Project
 
-> Description the project.
+> In this project I have set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I have developed a first working version of the app following a wireframe, but without styling -Focus is on functionality. I have consumed the Leaderboard API using JavaScript async and await and added some styling.
 
 
-## Built With
+###### Languages 
+- HTML
+- CSS
+- JAVASCRIPT
+###### Tools  
+- Github
+###### Code Editor
+- VS code
+###### Packages 
+- NPM
+- Node
+- Webpack## Built With
 
 - Major languages
 - Frameworks
@@ -42,21 +53,16 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Rn486](https://github.com/Rn486)
+- Twitter: [@recillahk](https://twitter.com/recillahk)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/recillah-khamala-071151b7/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Rn486/Leaderboard-Project/issues).
 
 ## Show your support
 
@@ -64,9 +70,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- 
 
 ## 📝 License
 
