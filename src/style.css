@@ -5,7 +5,7 @@
   padding: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-  
+
 .bigContainer {
   margin: 0 auto;
   width: 80%;
@@ -50,7 +50,7 @@
 .btn:hover {
   background: rgb(194, 194, 194);
 }
-  
+
 .counted {
   margin-top: 1rem;
   list-style: none;
@@ -63,7 +63,7 @@
   font-size: 25px;
 }
 
-.pCount{
+.pCount {
   background-color: rgb(194, 194, 194);
 }
 
@@ -87,4 +87,3 @@
   font-size: 25px;
   font-weight: 600;
 }
-  
