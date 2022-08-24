@@ -1,7 +1,90 @@
-body {
-    background-color: bisque;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.bigContainer {
+  margin: 0 auto;
+  width: 80%;
 }
 
-.hello {
-    color: red;
-  }
+.header {
+  margin-top: 2rem;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin: 2rem;
+}
+
+.count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nowScore {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.btn {
+  width: 9rem;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  border: 2px solid;
+  box-shadow: 5px 7px;
+}
+
+.btn:hover {
+  background: rgb(194, 194, 194);
+}
+  
+.counted {
+  margin-top: 1rem;
+  list-style: none;
+  border: 2px solid #000;
+}
+
+.player {
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.pCount{
+  background-color: rgb(194, 194, 194);
+}
+
+.call {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.populate {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.populate input {
+  width: 60%;
+  padding: 0.5rem;
+  border: 2px solid;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+  

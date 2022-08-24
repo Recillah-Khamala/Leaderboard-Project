@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="main.bundle.js"></script></head>
+    <title>Leaderboard Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+
 <body>
-    <h1>Hello webpack!</h1>
+    <div class="bigContainer">
+        <div class="head">
+            <h1 class="header">Leaderboard</h1>
+        </div>
+        <div class="details">
+            <div class="show">
+                <div class="count">
+                    <h2 class="nowScore">Recent scores</h2>
+                    <button class="btn refreshBtn" type="button">Refresh</button>
+                </div>
+
+                <ul class="counted">
+                    <li class="player">Name:70</li>
+                    <li class="player pCount">Name:40</li>
+                    <li class="player">Name:5</li>
+                    <li class="player pCount">Name:67</li>
+                    <li class="player">Name:83</li>
+                    <li class="player pCount">Name:13</li>
+                    <li class="player">Name:95</li>
+                </ul>
+            </div>
+            <div class="scoreCount">
+                <h2 class="count">Add your score</h2>
+                <form action="#" class="populate">
+                    <input type="text" placeholder="Your Name" id="name" />
+                    <input type="text" placeholder="Your score" id="score" />
+                    <div class="btn-class">
+                        <button class="btn submitBtn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
