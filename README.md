@@ -16,11 +16,7 @@
 ###### Packages 
 - NPM
 - Node
-- Webpack## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+- Webpack
 
 ## Live Demo (if available)
 
@@ -83,3 +79,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
