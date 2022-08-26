@@ -1,7 +1,7 @@
 import './style.css';
-import { add, show, refresh} from '.api.js';
+import { add, display, refresh} from './api.js';
 
-show ();
+display ();
 
 refreshBtn.addEventListener('click', refresh);
 submit.addEventListener('click', add)
