@@ -1,7 +1,9 @@
 import './style.css';
-import { add, display, refresh} from './api.js';
+import { add, display, refresh } from './api.js';
 
-display ();
+display();
 
+const refreshBtn = document.querySelector('.refreshBtn');
+const submit = document.querySelector('.submit');
 refreshBtn.addEventListener('click', refresh);
-submit.addEventListener('click', add)
+submit.addEventListener('click', add);
