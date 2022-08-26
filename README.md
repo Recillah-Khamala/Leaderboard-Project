@@ -20,14 +20,16 @@
 
 ## Live Demo (if available)
 
-[View Live Demo Here](https://rn486.github.io/Leaderboard-Project/)
+[View Live Demo Here](https://rn486.github.io/Leaderboard-Project/dist)
 
 
 ## Getting Started
 
 >To get a local copy up and running follow these simple example steps.
 
--Clone this repository with
+-Clone this repository according to these instructions, https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
+-Use the below ssh code to clone the project.
 
 <code> git@github.com:Rn486/Leaderboard-Project.git </code>
 using your terminal or command line.
@@ -46,11 +48,10 @@ However, there are some project requisites required for this project to run prop
 - Locate to the directory of the project
 - In the terminal, <code>npm init -y</code> to initialise the package manager
 - Again, in the terminal, <code> npm install </code> to install everything.
-
+- Use npm start to run the project.
 
 ## Project Status
 This project is still under development.
-
 
 
 ## Authors
