@@ -47,7 +47,6 @@ However, there are some project requisites required for this project to run prop
 - In the terminal, <code>npm init -y</code> to initialise the package manager
 - Again, in the terminal, <code> npm install </code> to install everything.
 
-
 ## Project Status
 This project is still under development.
 
@@ -79,4 +78,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
