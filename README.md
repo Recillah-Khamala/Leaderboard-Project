@@ -27,7 +27,7 @@
 
 >To get a local copy up and running follow these simple example steps.
 
--Clone this repository with
+-Clone this repository with https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 <code> git@github.com:Rn486/Leaderboard-Project.git </code>
 using your terminal or command line.
