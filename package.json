@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Rn486/Leaderboard-Project/issues"
   },
-  "homepage": "https://github.com/Rn486/Leaderboard-Project",
+  "homepage": "https://rn486.github.io/Leaderboard-Project/",
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@babel/preset-env": "^7.18.10",
