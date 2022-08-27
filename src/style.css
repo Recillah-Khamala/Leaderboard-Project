@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  background-color: rgb(220,220,220);
+  background-color: rgb(220, 220, 220);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -28,7 +28,7 @@
 .show {
   padding: 3% 4%;
   border: solid;
-  background-color: rgb(255,239,213);
+  background-color: rgb(255, 239, 213);
 }
 
 .count {
@@ -38,7 +38,7 @@
 }
 
 .scoreCount {
-  background-color: rgb(255,239,213);
+  background-color: rgb(255, 239, 213);
 }
 
 .nowScore {
@@ -73,8 +73,8 @@
   font-size: 18px;
 }
 
-.users:nth-of-type(even){
-  background-color: rgb(255,239,213);
+.users:nth-of-type(even) {
+  background-color: rgb(255, 239, 213);
 }
 
 .player {
