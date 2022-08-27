@@ -59,7 +59,7 @@
 }
 
 .btn:hover {
-  background: rgb(194, 194, 194);
+  background-color: rgb(0, 0, 0);
 }
 
 .counted {
@@ -83,10 +83,6 @@
   font-size: 25px;
 }
 
-.pCount {
-  background-color: rgb(194, 194, 194);
-}
-
 .call {
   font-weight: 700;
   font-size: 40px;
@@ -97,7 +93,7 @@
   flex-direction: column;
   margin-top: 2rem;
   background: rgb(194, 194, 194);
-}
+} 
 
 .populate input {
   width: 60%;
