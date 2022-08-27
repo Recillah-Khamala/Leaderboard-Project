@@ -10,7 +10,7 @@ export const display = async () => {
       json.result.forEach((element) => {
         const list = document.createElement('li');
         list.classList.add('users');
-        list.textContent = `${element.user} ${element.score}`;
+        list.textContent = `${element.user} :   ${element.score}`;
         populated.appendChild(list);
       });
     });
