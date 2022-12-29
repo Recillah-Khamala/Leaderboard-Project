@@ -20,7 +20,7 @@
 
 ## Live Demo (if available)
 
-[View Live Demo Here](https://rn486.github.io/Leaderboard-Project/dist)
+[View Live Demo Here](https://leader-boardproject.netlify.app/)
 
 
 ## Getting Started
