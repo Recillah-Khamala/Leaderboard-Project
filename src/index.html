@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="bigContainer">
+        <div class="head">
+            <h1 class="header">Leaderboard</h1>
+        </div>
+        <div class="details">
+            <div class="show">
+                <div class="count">
+                    <h2 class="nowScore">Recent scores</h2>
+                    <button class="btn refreshBtn" id="refreshBtn" type="button"><i class="fa fa-refresh fa-spin"></i></button>
+                </div>
+
+                <ul class="counted"></ul>
+            </div>
+            <div class="scoreCount">
+                <h2 class="call">Add your score</h2>
+                <form action="#" class="populate">
+                    <input type="text" placeholder="Your Name" id="name" required/>
+                    <input type="number" placeholder="Your score" id="score" required/>
+                    <div class="btn-class">
+                        <p id="err"></p>
+                        <button class="btn submitBtn" id="submit" type="submit"><i class="fa fa-send"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js["></script>
+</body>
+
+</html>

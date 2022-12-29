@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(164, 162, 163, 0.394), rgba(164, 162, 163, 0.394)), url('../Brown\ Geometric\ How\ to\ Play\ Games\ Better\ Pinterest\ Pin.png');
+  background-position: center;
+}
+
+.bigContainer {
+  margin: 0 80px;
+  width: 80%;
+}
+
+.header {
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin: 2rem;
+}
+
+.show {
+  padding: 3% 4%;
+  border: solid;
+  background-color: rgb(255, 239, 213);
+}
+
+.count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoreCount {
+  padding-left: 18px;
+  background-color: rgb(255, 239, 213);
+}
+
+.nowScore {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.btn {
+  width: 9rem;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  border: 2px solid;
+  box-shadow: 5px 7px;
+}
+
+.btn:hover {
+  background-color: rgb(255, 239, 213);
+}
+
+.counted {
+  margin-top: 1rem;
+  list-style: none;
+  border: 2px solid #000;
+  overflow-y: scroll;
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+.users:nth-of-type(even) {
+  background-color: rgb(255, 239, 213);
+}
+
+.player {
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.call {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.populate {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgb(255, 239, 213);
+}
+
+.btn-class {
+  background-color: rgb(255, 239, 213);
+}
+
+.populate input {
+  width: 60%;
+  padding: 0.5rem;
+  border: 2px solid;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .details {
+    grid-template-columns: 1fr;
+  }
+}
